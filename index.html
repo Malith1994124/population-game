@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Malith Pamuditha Fernando">
+  <meta name="keywords" content="population, country, game, quiz, geography, trivia, educational">
+  <meta name="description" content="Test your knowledge of country populations in this fun and challenging game. Can you guess which country has the higher population?">
+  <title>Population by Country Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Population by Country Game</h1>
+  <div id="game">
+    <div id="left-country" class="country-box">
+      <h2 id="country1-name">Country 1</h2>
+      <img id="country1-flag" src="" alt="Flag">
+      <p id="country1-pop">Population: ???</p>
+    </div>
+    <p id="vs-text">vs</p>
+    <div id="right-country" class="country-box">
+      <h2 id="country2-name">Country 2</h2>
+      <img id="country2-flag" src="" alt="Flag">
+      <p id="country2-pop">???</p>
+    </div>
+    <div class="buttons">
+      <button id="higher-btn">Higher</button>
+      <button id="lower-btn">Lower</button>
+    </div>
+    <div id="result"></div>
+    <div id="scoreboard">
+      <p id="score">Score: 0</p>
+      <p id="high-score">High Score: 0</p>
+      <p id="timer">Time Left: 60s</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
